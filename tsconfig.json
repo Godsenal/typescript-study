@@ -1,8 +1,16 @@
 {
   "compilerOptions": {
+      "allowJs": true,
       "target": "esnext",
       "outDir": "dist",
       "sourceMap": true,
-      "module": "commonjs",
+      "module": "esnext",
+      "moduleResolution": "node",
   },
+  "include": [
+    "*"
+  ],
+  "exclude": [
+    "dist/*"
+  ]
 }
