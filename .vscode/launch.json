@@ -8,7 +8,7 @@
       "type": "node",
       "request": "launch",
       "name": "프로그램 시작",
-      "program": "${workspaceFolder}/reference.ts",
+      "program": "${workspaceFolder}/decorator.ts",
       "outFiles": [
         "${workspaceFolder}/**/*.js"
       ]
