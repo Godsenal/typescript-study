@@ -1,17 +1,15 @@
 {
   "compilerOptions": {
-      "allowJs": true,
-      "target": "esnext",
-      "outDir": "dist",
-      "sourceMap": true,
-      "module": "esnext",
-      "moduleResolution": "node",
-      "experimentalDecorators": true,
+    "allowJs": true,
+    "target": "esnext",
+    "outDir": "dist",
+    "sourceMap": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true
   },
-  "include": [
-    "*"
-  ],
-  "exclude": [
-    "dist/*"
-  ]
+  "include": ["**/*"],
+  "exclude": ["dist/*"]
 }

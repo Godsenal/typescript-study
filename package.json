@@ -1,0 +1,28 @@
+{
+  "name": "typescript-study",
+  "version": "1.0.0",
+  "description": "Let's learn typescript.",
+  "main": "filter.js",
+  "dependencies": {
+    "@types/jquery": "^3.3.29",
+    "jquery": "^3.3.1",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Godsenal/typescript-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Godsenal/typescript-study/issues"
+  },
+  "homepage": "https://github.com/Godsenal/typescript-study#readme"
+}
